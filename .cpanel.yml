@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/preporak/public_html/CodeigniterDemo
+    - /bin/cp -R * $DEPLOYPATH
+    
